@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    border: 2px solid black;
+    width: 500px;
+height: auto;
+background-color: rgb(247, 247, 247);
+border-radius: .4rem;
+text-align: center;
+}
+h1{
+    letter-spacing: .1rem;
+    font-size: 2rem;
+}
+
+.form-group{
+    padding: 1rem 1rem;
+}
+
+label{
+    display: block;
+    text-align: left;
+    font-size: 1.3rem;
+letter-spacing: .0.5rem;
+}
+
+
+input{
+    width: 100%;
+    height: 2rem;
+    border-radius: .2rem;
+}
+
+
+/* pseoudu class */
+input::placeholder{
+    padding: 1rem;
+    color: black;
+    font-weight: 520;
+}
+
+input:valid{
+    border: 2px solid green;
+}
+
+input:invalid{
+    border: 2px solid red;
+}
+
+.button-class{
+    padding: 1rem;
+}
+#registerBtn{
+    width: 100%;
+    height: auto;
+    padding: .5rem;
+    font-size: 1.2rem;
+    color: white;
+    background-color: black;
+    border-radius: .3rem;
+}
+
+.messageBox{
+    border: 2px solid green;
+    margin: 0 .5rem .7rem .7rem;
+height: 4rem;
+border-radius: .3rem;
+}
